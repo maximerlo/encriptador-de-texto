@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Encriptador de Texto</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="container">
-    <h1>Encriptador de Texto</h1>
-    <div class="chat-container">
-      <div class="chat-input">
-        <label for="text">Texto:</label>
-        <textarea id="text" rows="10"></textarea>
-        <div class="operation-buttons">
-          <button id="encrypt-btn" class="operation-btn">Encriptar</button>
-          <button id="decrypt-btn" class="operation-btn">Desencriptar</button>
-        </div>
-      </div>
-      <div class="result-container">
-        <label for="result">Resultado:</label>
-        <textarea id="result" rows="10" readonly></textarea>
-        <button id="copy-btn">Copiar</button>
-      </div>
-    </div>
-  </div>
 
-  <script src="script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Encriptador de Texto</h1>
+        <div class="chat-container">
+            <div class="chat-input">
+                <textarea id="text" rows="10"></textarea>
+                <div class="operation-buttons">
+                    <button id="encrypt-btn" class="operation-btn">Encriptar</button>
+                    <button id="decrypt-btn" class="operation-btn">Desencriptar</button>
+                </div>
+            </div>
+            <div class="result-container">
+                <textarea id="result" rows="10" readonly></textarea>
+                <button id="copy-btn">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
