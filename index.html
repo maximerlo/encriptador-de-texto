@@ -9,22 +9,24 @@
 </head>
 
 <body>
-    <div class="container">
-        <h1>Encriptador de Texto</h1>
+    <h1>Encriptador de Texto</h1>
+    <main class="container">
+        
         <div class="chat-container">
             <div class="chat-input">
-                <textarea id="text" rows="10"></textarea>
+                <textarea id="text" rows="20"></textarea>
                 <div class="operation-buttons">
                     <button id="encrypt-btn" class="operation-btn">Encriptar</button>
                     <button id="decrypt-btn" class="operation-btn">Desencriptar</button>
                 </div>
             </div>
             <div class="result-container">
+                <img src="img/30537.png" alt="" id="no-message-img">
                 <textarea id="result" rows="10" readonly></textarea>
                 <button id="copy-btn">Copiar</button>
             </div>
         </div>
-    </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
